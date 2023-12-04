@@ -1,23 +1,5 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-h1{
-    margin: 0 auto;
-    width: 450px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
     color: blue;
-    /* border: 1px solid rebeccapurple; */
 }
-
-form{
-    margin: 0 auto 0 auto; 
-    width: 500px;
-}
-
-td:nth-child(odd){
-    text-align: center;
-}
-
 
