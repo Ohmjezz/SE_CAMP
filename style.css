@@ -13,5 +13,5 @@ p {
 
 .box:hover{
     background-color:rgb(118, 11, 82);
-    box-shadow: 20px 20px 20px 20px black;
+    box-shadow: 20px 20px 20px 20px blue;
 }
