@@ -20,7 +20,6 @@
                         <td>=</td>
                         <td> $result </td>
                         </tr>";
-                        
                     }
                 ?>
             </tbody>
