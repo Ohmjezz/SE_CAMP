@@ -26,11 +26,46 @@
         </table>
     </div>
     <style>
+        
         .box { 
+            align-item: center;
             width: 150px;
             height: 275px;
             overflow: scroll;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(red, green, blue, 0.5);
         }
+
+        h1 {
+            text-align: center;
+            animation: lighter 5s linear infinite; 
+        }
+
+        td {
+           animation: lighter 5s linear infinite; 
+        }
+
+        @keyframes lighter {
+            0% {
+                color: red;
+            }
+            50% {
+                color: rgba(255, 0, 0, random(0, 1));
+            }
+            100% {
+                color: rgba(0, 0, 255, random(0, 1));
+            }
+        }
+
+        table{
+            margin: auto;
+        }
+
+        tr:hover{
+            transform: scale(1.5);
+            border: solid black;
+        }
+        
     </style>
 </body>
 
