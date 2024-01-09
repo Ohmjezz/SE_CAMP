@@ -84,7 +84,7 @@
             </div>
 
             <div class="card-footer">
-                <button type="reset" class="btn btn-secondary">Reret</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
                 <button type="submit" class="btn btn-success">Submit</button>
             </div>
         </form>
