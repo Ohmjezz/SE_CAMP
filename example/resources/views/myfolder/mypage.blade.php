@@ -3,7 +3,7 @@
     <?php echo $val_a . ' ' . $val_b; ?>
 </h1>
 <h1>{{$val_a . ' ' . $val_b }}</h1>
-<form action="/my-route" method="POST">
+<form action="/my-controller" method="POST">
     @csrf
     <input type="text" name="myinput" id="">
     <button type="submit">submit</button>

@@ -52,7 +52,8 @@
 <body>
     <br>
 
-    <h1>Multiple table
+    <h1>
+        Multiple table
         @if(isset($_POST['input']) && preg_match("/[0-9]/" , $_POST['input'] , $matches))
         of
         <?php $my_number = sprintf("%d" , $_POST['input'])?>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\myController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -13,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/my-controller', [myController::class, 'index']);
+Route::get('/my-controller2', 'App\Http\Controllers\myController@index');
+
+Route::namespace('App\Http\Controllers')->group(function(){
+    Route::get('/my-controller3', 'myController@index');
+});
+
+Route::resource('/my-controller4', myController::class);
 
 Route::get('/', function () {
     return view('welcome');
